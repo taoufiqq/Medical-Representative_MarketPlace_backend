@@ -62,13 +62,13 @@ const addCustomer = async (req, res) => {
     const transport = nodemailer.createTransport({
       service: "gmail",
           auth: {
-            user: 'aibiyassine29@gmail.com',//email
-            pass: 'NEVERgiveUPNEVERgiveUP1998'//password
+            user: 'elhanchaoui.emailtest@gmail.com',//email
+            pass: 'Taoufiq@2020'//password
           }
       })
     
       await transport.sendMail({
-          from: 'aibiyassine29@gmail.com',
+          from: 'elhanchaoui.emailtest@gmail.com',
           to: req.body.email,
           subject: "Email Activated Account",
           html: `
