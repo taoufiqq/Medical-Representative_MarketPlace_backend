@@ -73,7 +73,7 @@ const addCustomer = async (req, res) => {
           subject: "Email Activated Account",
           html: `
           <h2>Please click on below link to activate your account</h2>
-          <p>http://localhost:3000/Customer/activateCompte/${token}</p>
+          <p>https://marketplace-elhanchaoui-api.herokuapp.com/Customer/activateCompte/${token}</p>
       `
       })
   
