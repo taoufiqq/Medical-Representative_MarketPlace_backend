@@ -68,7 +68,7 @@ const addCustomer = async (req, res) => {
       })
     
       await transport.sendMail({
-          from: 'elhanchaoui.emailtest@gmail.com',
+          from: 'aibiyassine29@gmail.com',
           to: req.body.email,
           subject: "Email Activated Account",
           html: `
