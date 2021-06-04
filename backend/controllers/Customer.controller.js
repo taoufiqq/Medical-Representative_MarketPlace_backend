@@ -63,7 +63,7 @@ const addCustomer = async (req, res) => {
       service: "gmail",
           auth: {
             user: 'elhanchaoui.emailtest@gmail.com',//email
-            pass: 'Taoufiq@2020'//password
+            pass: 'Taoufiq@2021'//password
           }
       })
     
